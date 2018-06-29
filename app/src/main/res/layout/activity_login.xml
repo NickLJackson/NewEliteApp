@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Layout für die LoginActivity. Erstellt von Nathalie -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <!-- Zeigt das Bild-->
+    <ImageView
+        android:id="@+id/loginImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <!--Eingabefeld für den Nutzernamen-->
+    <EditText
+        android:id="@+id/loginUser"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginImage"
+        android:layout_marginTop="40dp"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/baseline_account_circle_black_24"
+        android:drawableStart="@drawable/baseline_account_circle_black_24"
+        />
+
+    <!--Eingabefeld für das Passwort-->
+    <EditText
+        android:id="@+id/loginPw"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginUser"
+        android:layout_marginTop="40dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/baseline_lock_black_24"
+        android:drawableLeft="@drawable/baseline_lock_black_24"
+        />
+
+    <!--Erstellt das View für den Button-->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/loginPw"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:onClick="onClickBtn"
+        />
+
+</RelativeLayout>

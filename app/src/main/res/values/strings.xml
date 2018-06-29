@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EliteApp</string>
+
+    <string-array name="select_day">
+        <item>Select day</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+    </string-array>
+
+</resources>

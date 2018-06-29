@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tabelle, in der der Stundenplan angezeigt werden kann. Erstellt von Nick-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:layout_margin="16dp">
+
+    <!--Beschreibt jeweils eine Zeile der Tabelle-->
+    <TableRow>
+        <TextView
+            android:text="Zeit"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="3dip" />
+        <TextView
+            android:text="Fach"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="8:00"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_1"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="8:45"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_2"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="9:55"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="10:40"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="11:45"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_5"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="12:30"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_6"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="13:25"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_7"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="14:10"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_8"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="15:00"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_9"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="15:45"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_10"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="16:30"
+            android:layout_gravity="center"
+            android:padding="3dip" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="right"
+            android:padding="3dip"
+            android:id="@+id/stundenplan_11"/>
+    </TableRow>
+
+</TableLayout>
